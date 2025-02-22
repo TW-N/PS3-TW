@@ -1,0 +1,102 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 40px;
+}
+
+#hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#hero h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  margin-bottom: 30px;
+}
+
+#hero button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#features h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#features ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.link-container a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.link-container a:hover {
+  background-color: #0056b3;
+}
